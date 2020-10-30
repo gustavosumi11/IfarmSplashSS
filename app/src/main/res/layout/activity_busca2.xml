@@ -29,17 +29,17 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="1.0" />
 
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center|top"
             android:layout_marginTop="120dp"
-            android:textSize="30dp"
-            android:textFontWeight="200"
-            android:textColor="#D1AE6C"
             android:fontFamily="@font/poppins"
-            android:text="Olá fazendeiro!"></TextView>
-
+            android:text="Olá fazendeiro!"
+            android:textColor="#D1AE6C"
+            android:textFontWeight="200"
+            android:textSize="30dp"></TextView>
 
         <EditText
             android:layout_width="300dp"
