@@ -5,9 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
-    tools:context=".BuscaActivity">
-
-
+    tools:context=".DuvidaActivity">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -16,8 +14,8 @@
 
         <ImageView
             android:id="@+id/image"
-            android:layout_width="263dp"
-            android:layout_height="232dp"
+            android:layout_width="193dp"
+            android:layout_height="156dp"
             android:layout_gravity="center"
             android:layout_marginTop="80dp"
             android:focusableInTouchMode="false"
@@ -42,11 +40,12 @@
             android:textSize="30dp"></TextView>
 
         <EditText
+            android:id="@+id/duvida"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:text="Qual a sua dúvida?"
+            android:hint="Qual a sua dúvida?"
             android:textAlignment="center"
             android:textColor="#5EFFFFFF"
             android:textSize="20dp"
@@ -54,6 +53,7 @@
 
 
         <Button
+            android:id="@+id/consultar"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center|bottom"
