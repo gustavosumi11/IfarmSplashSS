@@ -48,5 +48,6 @@ class CarregaFotoActivity : AppCompatActivity() {
                 foto.setImageBitmap(cameraImage)
             }
         }
+
     }
 }
